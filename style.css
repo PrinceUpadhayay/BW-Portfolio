@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif; 
+}
+
+.content-wrapper{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.bar-icon{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px 15px 10px;
+    font-size: 40px;
+    color: grey;
+    background-color: white;
+    z-index: 9999999999;
+}
+
+main{
+    padding: 20px;
+}
+
+.main-content{
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+}
+.main-image{
+    border: 2px solid blue;
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.bg-image{
+    width: 100%;
+}
+
+
+/* Content Style Starts */
+.content{
+    width: 60%;
+
+    right: 0;
+    margin-left: 40%;
+}
+/* content style end */
+
+nav{
+    padding-bottom: 100px ;
+}
+/* heading start */
+.heading{
+  margin-top:150px;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.heading h1{
+    font-size: 60px;
+}
+
+.greyshade{
+    padding: 10px 30px;
+    margin-top: 15px;
+    border: none;
+}
+.greyshade:hover{
+    background-color: rgb(200, 194, 194);
+
+}
+/* heading end */
+
+/* Portfolio start */
+.portfolio-section{
+
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
+.portfolio-section h2{
+    color: grey;
+}
+.portfolio-section hr{
+    color: lightgray;
+    opacity: 0.4;
+}
+.portfolio-menu{
+    display: flex;
+    margin-bottom: 12px;
+}
+.port-images{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 8px;
+    width: 49%;
+}
+
+.port-images img{
+    width: 100%;
+    margin-bottom: 12px;
+
+}
+/* portfolio End */
+
+/* About start */
+.about-section{
+    /* border: 2px solid green; */
+
+    margin-bottom: 10px;
+}
+.about-section h2{
+    color: grey;
+}
+.about-section hr{
+    color: lightgrey;
+    opacity: 0.4;
+}
+.about-section p{
+    padding: 5px;
+    color: #757575;
+}
+/* About end  */
+
+/* Skill section Start */
+.skill-section{
+    /* border: 2px solid blue; */
+    
+    
+}
+.skill-section h2 {
+    color: grey;
+    margin-bottom: 10px;
+
+}
+.skill-section p{
+    padding: 5px;
+    color: #757575;
+    font-size: bold;
+    letter-spacing: 4px;
+    width: 100%;
+    text-align: justify;
+}
+.box-1{
+    width: 95%;
+    color: #fff;
+    background-color: #616161;
+    padding: 4px 8px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.box-2{
+    width: 85%;
+    color: #fff;
+    background-color: #616161;
+    padding: 4px 8px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.box-3{
+    width: 80%;
+    color: #fff;
+    background-color: #616161;
+    padding: 4px 8px;
+    text-align: center;
+}
+.skill-section-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    /* border: 2px solid green; */
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #616161;
+}
+.box1 span{
+    font-size: 24px;
+}
+/* Skill End  */
+
+/* Reputation Start */
+.reputation-section{
+    /* border: 2px solid red; */
+    
+}
+.reputation-section h2{
+    color: grey;
+    margin-bottom: 10px;
+    
+}
+.rep1{
+    display: flex;
+    text-align:center ;
+    align-items: center;
+    font-size: 20px;
+}
+.name-center{
+    padding: 10px;
+}
+
+.img-round img{
+    width: 80px;
+    border-radius: 50px;
+}
+
+/* Reputation end */
+
+/* Price start */
+
+.pricing-section{
+    border: 2px solid green;  
+}
+.pricing-section h2{
+    color: grey;
+    margin-bottom: 10px;
+}
+.pricing-content{
+    /* border: 2px solid brown; */
+    width: 100%;
+    display: flex;
+}
+.box1{
+    border: 2px solid blue;
+    width: 50%;
+    margin-right: 5px;
+}
+.box2{
+     border: 2px solid brown;
+     width: 50%;
+     margin-left: 5px ;
+}
+
+.basic-menu{
+    list-style-type:none;
+    width: 100%;
+    /* border: 2px solid red; */
+    padding-bottom: 10px;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+.basic-list{
+    border-bottom: 1px solid black;
+    padding: 8px 16px;
+    width: 100%;
+
+}
+
+.basic-menu2{
+    list-style-type:none;
+    width: 100%;
+    /* border: 2px solid red; */
+    padding-bottom: 10px;
+    text-align: center;
+    padding: 20px;
+
+}
+.basic-list2{
+    border-bottom: 1px solid black;
+    padding: 8px 16px;
+    width: 100%;
+
+}
+/* Price End */
+
+/* Map Start */
+
+ .map {
+    width: 100%; 
+    filter: grayscale(75%);
+}
+
+ .map-div {
+    margin:4px;
+ }
+/* map end */
+
+  /* Start Contact section */
+.contact-section {
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+.contact-item {
+    padding: 10px 0px 8px 4px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.btn1 {
+    color: #000;
+    background-color: #f1f1f1;    
+    padding:0px 25px;
+    height: 40px;
+    border: none;
+}
+.btn1:hover {
+    color: #000;
+    background-color: #ccc;
+    
+}
+
+/* contact section End */
+
+/* footerbar start */
+.footer-bar {
+    color: #000;
+    background-color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 17px;
+    padding-bottom: 50px;
+}
+
+.footer-bar a {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+/* footer bar end */
+
+
+
