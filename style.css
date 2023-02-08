@@ -27,12 +27,10 @@ main{
 }
 
 .main-content{
-    border: 2px solid black;
     width: 100%;
     display: flex;
 }
 .main-image{
-    border: 2px solid blue;
     width: 40%;
     height: 100%;
     position: fixed;
@@ -67,6 +65,10 @@ nav{
 }
 .heading h1{
     font-size: 60px;
+    padding-bottom: 10px;
+}
+.heading p{
+    padding-bottom: 15px;
 }
 
 .greyshade{
@@ -85,7 +87,7 @@ nav{
 
     /* border: 2px solid red; */
     width: 100%;
-    margin-bottom: 15px;
+    padding-bottom: 50px;
     
 }
 .portfolio-section h2{
@@ -115,9 +117,7 @@ nav{
 
 /* About start */
 .about-section{
-    /* border: 2px solid green; */
-
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 .about-section h2{
     color: grey;
@@ -134,9 +134,7 @@ nav{
 
 /* Skill section Start */
 .skill-section{
-    /* border: 2px solid blue; */
-    
-    
+    padding-bottom:50px;
 }
 .skill-section h2 {
     color: grey;
@@ -178,7 +176,6 @@ nav{
     display: flex;
     justify-content: space-around;
     padding: 25px;
-    /* border: 2px solid green; */
     text-align: center;
     margin-top: 15px;
     margin-bottom: 20px;
@@ -192,8 +189,7 @@ nav{
 
 /* Reputation Start */
 .reputation-section{
-    /* border: 2px solid red; */
-    
+    padding-bottom: 50px;
 }
 .reputation-section h2{
     color: grey;
@@ -219,25 +215,23 @@ nav{
 
 /* Price start */
 
-.pricing-section{
-    border: 2px solid green;  
+.pricing-section{ 
+    padding-bottom: 60px;
 }
 .pricing-section h2{
     color: grey;
     margin-bottom: 10px;
 }
 .pricing-content{
-    /* border: 2px solid brown; */
     width: 100%;
     display: flex;
 }
 .box1{
-    border: 2px solid blue;
     width: 50%;
     margin-right: 5px;
 }
+
 .box2{
-     border: 2px solid brown;
      width: 50%;
      margin-left: 5px ;
 }
@@ -245,7 +239,6 @@ nav{
 .basic-menu{
     list-style-type:none;
     width: 100%;
-    /* border: 2px solid red; */
     padding-bottom: 10px;
     text-align: center;
     padding: 20px;
@@ -253,11 +246,22 @@ nav{
 
 }
 .basic-list{
-    border-bottom: 1px solid black;
+    border: 1px solid #ddd;
     padding: 8px 16px;
     width: 100%;
-
+    color: #757575;
+    border-bottom: 1px solid #ddd;
 }
+.basic-list button{
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+}
+.basic-list button:hover{
+    background-color: black;
+    color: #ccc;
+}
+
 
 .basic-menu2{
     list-style-type:none;
@@ -269,15 +273,56 @@ nav{
 
 }
 .basic-list2{
-    border-bottom: 1px solid black;
+    border: 1px solid #ddd;;
     padding: 8px 16px;
     width: 100%;
-
+    color: #757575;
+    border-bottom: 1px solid #ddd;
 }
+.basic-list2 button{
+    padding: 15px 15px;
+    font-size: 15px;
+    border: none;
+}
+.basic-list2 button:hover{
+    background-color: black;
+    color: #ccc;
+}
+
+
+
 /* Price End */
 
-/* Map Start */
+/* contact me start */
+.contactme-section{
+    /* border: 2px solid black; */
+    padding-bottom: 25px;
+}
+.contactme-section h2{
+    color: grey;
+    margin-bottom: 20px;
+}
+.contactme-section hr{
+     color: lightgrey;
+    opacity: 0.4;
+}
+.contactme-section p{
+    color: grey;
+    padding: 10px;
+    
+}
+.icons-list i{
+    /* width: 100% */
+    width: 1em;
+    text-align: center;
+    font-size: 40px;
+}
 
+
+/* Map Start */
+.map-section{
+    padding-bottom: 25px;
+}
  .map {
     width: 100%; 
     filter: grayscale(75%);
@@ -317,19 +362,34 @@ nav{
 /* footerbar start */
 .footer-bar {
     color: #000;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     width: 100%;
     text-align: center;
     padding-top: 30px;
     font-size: 17px;
     padding-bottom: 50px;
+    font-size: inherit;
 }
 
 .footer-bar a {
     text-align: center;
     text-decoration: underline;
-    color: black;
+    color: #ccc;
+    
 }
+.footer-bar i{
+    color: #ccc;
+}
+
+.footer-bar i:hover{
+    opacity: 0.4;
+    color: #f1f1f1;
+    background-color: transparent;
+}
+.footer-bar p{
+    color: #ccc;
+}
+
 /* footer bar end */
 
 
