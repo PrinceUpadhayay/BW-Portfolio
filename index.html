@@ -5,77 +5,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,100&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/1f265ff07f.js" crossorigin="anonymous"></script>
+    <!-- Fontawesome -->
+
     <link rel="stylesheet" href="style.css">
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"> -->
-    <script src="https://kit.fontawesome.com/1f265ff07f.js" crossorigin="anonymous"></script>
+
     <title>BW Portfolio</title>
 
 </head>
 
 <body>
-
-
+    <!-- Main Starts here  -->
     <div class=" main-content">
+        <!-- Main Image starts here -->
         <div class="main-image">
             <picture>
                 <img class="bg-image" src="images/profile_girl.jpg" alt="">
             </picture>
         </div>
+        <!-- Main Image ends here -->
 
+        <!-- Content Starts here  -->
         <div class="content">
-            <!-- navbar start -->
+
+            <!-- Content Wrapper Starts Here -->
             <div class="content-wrapper">
 
-                <!-- Main Heading start -->
+                <!-- Slider and Navbar section Starts -->
                 <nav>
+                    <!-- Hamburger Navbar Icon Starts -->
                     <barIcon class="bar-icon">
                         <i class="fa-solid fa-bars"></i>
                     </barIcon>
+                    <!-- Hamburger Navbar Icon Ends -->
+
+                    <!-- Slider Heading Starts -->
                     <div class="heading">
                         <h1> Jane Doe</h1>
-                        <p>Photographer and Web Designer</p>
+                        <p>Photographer and Web Designer.</p>
                         <button class="greyshade">
                             <i class="fa fa-download"></i>
-                            Download Resume</button>
+                            Download Resume
+                        </button>
                     </div>
-                </nav>
-                <!-- Main heading End -->
+                    <!-- Slider Heading Starts -->
 
+                </nav>
+                <!-- Slider and Navbar section Ends -->
+
+                <!-- Main Starts Here -->
                 <main>
                     <!-- Portfolio start -->
                     <div class="portfolio-section">
-                        <h2 class="gery-color"> My Portfolio</h2><br>
-                        <hr><br>
+                        <p class="gery-color portfolio-heading"> My Portfolio</p>
+                        <br>
+                        <hr>
+                        <br>
+
+                        <!-- Portfolio Images Starts -->
                         <div class="portfolio-menu">
 
                             <div class="port-images">
-                                <picture>
-                                    <img src="images/wedding1.jpg" alt="">
-                                </picture>
-                                <picture>
-                                    <img src="images/rocks2.jpg" alt="">
-                                </picture>
 
-                                <picture>
-                                    <img src="images/sailboat3.jpg" alt="">
-                                </picture>
+                                <div class="port-image-item">    
+                                    <picture>
+                                        <img src="images/wedding1.jpg" alt="">
+                                    </picture>
+                                </div>
+                            
+                                <div class="port-image-item">
+                                    <picture>
+                                        <img src="images/rocks2.jpg" alt="">
+                                    </picture>
+                                </div>
+                            
+                                <div class="port-image-item">
+                                    <picture>
+                                        <img src="images/sailboat3.jpg" alt="">
+                                    </picture>
+                                </div>
+                            
                             </div>
-                            <div class="port-images">
-                                <picture>
-                                    <img src="images/underwater4.jpg" alt="">
-                                </picture>
-                                <picture>
-                                    <img src="images/chef5.jpg" alt="">
-                                </picture>
-                                <picture>
-                                    <img src="images/wedding6.jpg" alt="">
-                                </picture>
-                                <picture>
-                                    <img src="images/typewritter7.jpg" alt="">
-                                </picture>
+
+                            <div class="port-images ">
+                                <div class="port-image-item-right">
+                                    <picture>
+                                        <img src="images/underwater4.jpg" alt="">
+                                    </picture>
+                                </div>
+
+                                <div class="port-image-item-right">
+                                    <picture>
+                                        <img src="images/chef5.jpg" alt="">
+                                    </picture>
+                                </div>
+
+                                <div class="port-image-item-right">
+                                    <picture>
+                                        <img src="images/wedding6.jpg" alt="">
+                                    </picture>
+                                </div>
+
+                                <div class="port-image-item-right">
+                                    <picture>
+                                        <img src="images/typewritter7.jpg" alt="">
+                                    </picture>
+                                </div>
+
                             </div>
                         </div>
+                        <!-- Portfolio Images Ends -->
+
                     </div>
+                    <!-- Portfolio Ends -->
 
                     <!-- About start -->
                     <about>
@@ -90,59 +141,89 @@
                                 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
                         </div>
                     </about>
                     <!-- About End  -->
-                    <!-- My skill  -->
+
+                    <!-- My skill Start -->
                     <skill>
                         <div class="skill-section">
+                            <!-- My Skills Heading -->
                             <h2> My skill</h2>
-                            <p>Photographer</p><br>
-                            <div class="box-1">
+                            <!-- My Skills Heading -->
+
+                            <!-- Photographer Skill -->
+                            <p>Photographer</p>
+                            <br>
+                            <div class="skillbox-1">
                                 95%
-                            </div><br>
-                            <p>Web Design</p><br>
-                            <div class="box-2">
+                            </div>
+                            <br>
+                            <!-- Photographer Skill -->
+
+                            <!-- Web Design Skills -->
+                            <p>Web Design</p>
+                            <br>
+                            <div class="skillbox-2">
                                 85%
-                            </div><br>
-                            <p>Photoshop</p><br>
-                            <div class="box-3">
+                            </div>
+                            <br>
+                            <!-- Web Design Skills -->
+
+                            <!-- Photoshop Skills -->
+                            <p>Photoshop</p>
+                            <br>
+                            <div class="skillbox-3">
                                 80%
                             </div>
                             <br>
-                            <div class="skill-section-2">
-                                <div class="box1">
-                                    <Span>14+</Span><br>
+                            <!-- Photoshop Skills -->
+
+                            <!-- Achievement Section Starts -->
+                            <div class="achievement-section">
+                                <div class="achieve-box">
+                                    <span>14+</span>
+                                    <br>
                                     Partners
                                 </div>
-                                <div class="box1">
-                                    <Span>55+</Span><br>
+                                <div class="achieve-box">
+                                    <span>55+</span>
+                                    <br>
                                     Project Done
                                 </div>
-                                <div class="box1">
-                                    <Span>89+</Span><br>
+                                <div class="achieve-box">
+                                    <span>89+</span><br>
                                     Happy Client
                                 </div>
-                                <div class="box1">
-                                    <Span>150+</Span><br>
+                                <div class="achieve-box">
+                                    <span>150+</span><br>
                                     Meetings
                                 </div><br>
                             </div>
+                            <!-- Achievement Section Ends -->
+
+                            <!-- Download Resume Button -->
                             <button class="greyshade">
                                 <i class="fa fa-download"></i>
-                                Download Resume</button><br>
-
+                                Download Resume
+                            </button><br>
+                            <!-- Download Resume Button -->
                         </div>
                     </skill>
-                    <!-- Skill End -->
+                    <!--My skill End -->
 
                     <!-- Reputation start -->
                     <reputation>
                         <div class="reputation-section">
+
+                            <!-- Reputation Section Heading -->
                             <h2> My Reputation</h2>
                             <br>
-                            <div class="rep1">
+
+                            <!-- Reputations -->
+                            <div class="reputation">
                                 <picture class="img-round">
                                     <img src="images/avatar_smoke.jpg" alt="">
                                 </picture>
@@ -152,7 +233,7 @@
                                 </p>
                                 <p>Jane Doe is just awesome. I am so happy to have met her! </p>
                             </div>
-                            <div class="rep1">
+                            <div class="reputation">
                                 <picture class="img-round">
                                     <img src="images/bandmember.jpg" alt="">
                                 </picture>
@@ -163,7 +244,7 @@
                                 <p>Jane Doe saved us from a web disaster.
                                 </p>
                             </div>
-                            <div class="rep1">
+                            <div class="reputation">
                                 <picture class="img-round">
                                     <img src="images/avatar_g2.jpg" alt="">
                                 </picture>
@@ -173,72 +254,92 @@
                                 </p>
                                 <p>No one is better than Jane Doe. </p>
                             </div>
+                            <!-- Reputations -->
+
                         </div>
                     </reputation>
-
                     <!-- Reputation End -->
 
                     <!-- Price Start -->
                     <price>
                         <div class="pricing-section">
-                            <h2> My Price </h2><br>
+                            <!-- Price Section Heading -->
+                            <h2> My Price </h2>
+                            <br>
+
+                            <!-- Price Content Starts-->
                             <div class="pricing-content">
-                                <div class="box1">
-                                    <ul class="basic-menu">
-                                        <li class="basic-list">Basic</li>
-                                        <li class="basic-list">Web Design</li>
-                                        <li class="basic-list"> Photography</li>
-                                        <li class="basic-list"> 5GB Storage </li>
-                                        <li class="basic-list">Mail Support</li>
-                                        <li class="basic-list">
+
+                                <!-- Price Section Left Box -->
+                                <div class="price-box1">
+                                    <ul class="price-basic-menu">
+                                        <li class="price-basic-list">Basic</li>
+                                        <li class="price-basic-list">Web Design</li>
+                                        <li class="price-basic-list"> Photography</li>
+                                        <li class="price-basic-list"> 5GB Storage </li>
+                                        <li class="price-basic-list">Mail Support</li>
+                                        <li class="price-basic-list">
                                             <h2> $ 10</h2>
-                                            per month 
+                                            per month
                                         </li>
-                                        <li class="basic-list">
+                                        <li class="price-basic-list">
                                             <button> Sign Up</button>
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="box2">
-                                    <div class="basic-box2">
-                                        <ul class="basic-menu2">
-                                            <li class="basic-list2">Pro</li>
-                                            <li class="basic-list2">Web Design</li>
-                                            <li class="basic-list2"> Photography</li>
-                                            <li class="basic-list2"> 5GB Storage </li>
-                                            <li class="basic-list2">Mail Support</li>
-                                            <li class="basic-list2">
+                                <!-- Price Section Left Box -->
+
+                                <!-- Price Section Right Box -->
+                                <div class="price-box2">
+                                    <div class="price-basic-box2">
+                                        <ul class="price-basic-menu2">
+                                            <li class="price-basic-list2">Pro</li>
+                                            <li class="price-basic-list2">Web Design</li>
+                                            <li class="price-basic-list2"> Photography</li>
+                                            <li class="price-basic-list2"> 5GB Storage </li>
+                                            <li class="price-basic-list2">Mail Support</li>
+                                            <li class="price-basic-list2">
                                                 <h2> $ 25</h2>
                                                 <span> per month</span>
                                             </li>
-                                            <li class="basic-list2">
+                                            <li class="price-basic-list2">
                                                 <button> Sign Up</button>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
+                                <!-- Price Section Right Box -->
+
                             </div>
+                            <!-- Price Content Ends-->
+
                         </div>
                     </price>
-
                     <!-- Price Ending -->
 
-                    <!-- Contact  me start -->
+                    <!-- Contact me start -->
                     <contactme>
                         <div class="contactme-section">
+                            <!-- Contact Me Heading -->
                             <h2> Contact Me</h2>
                             <hr><br>
-                            <div class="icons-list">
+
+                            <!-- Contact Icons List -->
+                            <div class="contactme-icons-list">
                                 <p>
                                     <i class="fa fa-map-marker"></i>
-                                        Chicago, US
+                                    Chicago, US
                                 </p>
-
-                                <p><i class="fa fa-phone "></i>
-                                          Phone: +00 151515</p>
-                                <p><i class="fa fa-envelope "> </i>
-                                         Email: mail@mail.com</p>
+                                <p>
+                                    <i class="fa fa-phone "></i>
+                                    Phone: +00 151515
+                                </p>
+                                <p>
+                                    <i class="fa fa-envelope "> </i>
+                                    Email: mail@mail.com
+                                </p>
                             </div>
+                            <!-- Contact Icons List -->
                         </div>
 
                     </contactme>
@@ -246,7 +347,6 @@
 
                     <!-- Map Image starts here -->
                     <div class="map-section">
-
                         <div class="map-div">
                             <picture>
                                 <img class="map" src="images/map.jpg" alt="">
@@ -254,7 +354,8 @@
                         </div>
                     </div>
                     <!-- Map Image ends here -->
-                    <!-- Contact Section Start -->
+
+                    <!-- Contact Section  Form Start -->
                     <div class="contact-section">
                         <div class="contact-item">
                             <p> Lets get in touch and talk about your next project.</p><br>
@@ -266,44 +367,41 @@
                             </form>
                             <button class="btn1">
                                 <i class="fa fa-paper-plane"></i>
-                                SEND MESSAGE </button>
-
+                                SEND MESSAGE 
+                            </button>
                         </div>
 
                     </div>
-                    <!-- contact end -->
-
-
-
+                    <!-- Contact Section Form end -->
 
                 </main>
+                <!-- Main Ends Here -->
+
 
                 <!-- footer section start -->
                 <footer>
-
                     <div class="footer-bar">
-
                         <i class="fa fa-instagram hover-opacity"></i>
                         <i class="fa fa-facebook-official hover-opacity"></i>
                         <i class="fa fa-snapchat hover-opacity"></i>
                         <i class="fa fa-pinterest-p hover-opacity"></i>
                         <i class="fa fa-twitter hover-opacity"></i>
                         <i class="fa fa-linkedin hover-opacity"></i>
-
                         <p>
                             Powered by
                             <a href="#" title="W3.CSS" target="_blank" class="tex-green">test.com</a>
-
                         </p>
-
                     </div>
                 </footer>
                 <!-- footer section end -->
             </div>
+            <!-- Content Wrapper Ends Here -->
 
         </div>
+        <!-- Content Ends here  -->
 
     </div>
+    <!-- Main Ends Here -->
 </body>
 
 </html>
