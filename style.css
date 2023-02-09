@@ -209,7 +209,7 @@ main{
 }
 .achieve-box{
     width: 100%;
-    font-size: 15px;
+    font-size: 20px;
     padding-right: 10px;
 }
 
@@ -260,11 +260,13 @@ main{
 .price-box1{
     width: 50%;
     margin-right: 5px;
+    border: none;
 }
 
 .price-box2{
      width: 50%;
      margin-left: 5px ;
+     border: none;
 }
 
 .price-basic-menu{
@@ -276,11 +278,17 @@ main{
     
 
 }
+.pricebasic{
+    background-color: #616161;
+    font-size:xx-large;
+
+
+}
 .price-basic-list{
     border: 1px solid #ddd;
     padding: 8px 16px;
     width: 100%;
-    color: #757575;
+    /* color: #757575; */
     border-bottom: 1px solid #ddd;
 }
 .price-basic-list button{
@@ -292,7 +300,11 @@ main{
     background-color: black;
     color: #ccc;
 }
-
+.probox{
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+}
 
 .price-basic-menu2{
     list-style-type:none;
@@ -307,7 +319,7 @@ main{
     border: 1px solid #ddd;;
     padding: 8px 16px;
     width: 100%;
-    color: #757575;
+    /* color: #757575; */
     border-bottom: 1px solid #ddd;
 }
 .price-basic-list2 button{
@@ -416,6 +428,7 @@ main{
 }
  .footer-bar p{
     color: #ccc;
+    font-size: medium;
  } 
 
 /* footer bar end */
