@@ -80,6 +80,8 @@ main{
 
 .bg-image{
     width: 100%;
+
+
 }
 
 
@@ -158,17 +160,18 @@ main{
 }
 .skill-section h2 {
     color: grey;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 
 }
 .skill-section p{
     padding: 5px;
     color: #757575;
-    font-size: bold;
+    /* font-size: bold; */
     letter-spacing: 4px;
     width: 100%;
     text-align: justify;
 }
+
 .skillbox-1{
     width: 95%;
     color: #fff;
@@ -206,7 +209,7 @@ main{
 }
 .achieve-box{
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
     padding-right: 10px;
 }
 
@@ -337,10 +340,9 @@ main{
     
 }
 .contactme-icons-list i{
-    /* width: 100% */
-    width: 1em;
     text-align: center;
-    font-size: 40px;
+    font-size: x-large;
+    
 }
 
 
@@ -387,13 +389,14 @@ main{
 /* footerbar start */
 .footer-bar {
     color: #000;
-    /* background-color: #f1f1f1; */
+    background-color: #f1f1f1;
     width: 100%;
     text-align: center;
     padding-top: 30px;
     font-size: 17px;
     padding-bottom: 50px;
     font-size: inherit;
+    opacity: 0.60;
 }
 
 .footer-bar a {
@@ -402,17 +405,18 @@ main{
     
 }
 .footer-bar i{
-    color: #ccc;
+    font-size:x-large;
 }
+
 
 .footer-bar i:hover{
     opacity: 0.4;
     color: #f1f1f1;
     background-color: transparent;
 }
-.footer-bar p{
+ .footer-bar p{
     color: #ccc;
-}
+ } 
 
 /* footer bar end */
 
