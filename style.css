@@ -536,6 +536,14 @@ main {
         margin-bottom: 30px ;
     }
 
+    
+    .achievement-section{
+        display: block;
+        width: 100%;
+    }
+    .achieve-box{
+        padding: 30px;
+    }
 
 }
 
@@ -572,7 +580,6 @@ main {
         border: none;
     }
 
-    
 
 }
 
